@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Note
 
-
+# REVIEW_MARKER: Copilot review context
 class NoteSerializer(serializers.ModelSerializer):
     tags_list = serializers.SerializerMethodField(read_only=True)
 

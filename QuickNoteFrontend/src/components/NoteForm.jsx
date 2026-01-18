@@ -12,7 +12,7 @@ import {
   CircularProgress,
 } from '@mui/material';
 import ReactMarkdown from 'react-markdown';
-
+// # REVIEW_MARKER: Copilot review context
 export default function NoteForm({ open, onClose, onSave, note, loading }) {
   const [formData, setFormData] = useState({ title: '', text: '', tags: '' });
   const [previewTab, setPreviewTab] = useState(0);

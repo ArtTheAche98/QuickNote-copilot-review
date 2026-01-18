@@ -1,5 +1,6 @@
 import { Grid, Typography, Box, Skeleton } from '@mui/material';
 import NoteCard from './NoteCard';
+// # REVIEW_MARKER: Copilot review context
 
 export default function NoteList({ notes, loading, error, onEdit, onDelete, onView }) {
   if (loading) {

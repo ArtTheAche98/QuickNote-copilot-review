@@ -25,6 +25,7 @@ import NoteViewer from './components/NoteViewer';
 import { notesApi } from './services/api.jsx';
 import { useDebounce } from './hooks/useDebounce.jsx';
 
+// # REVIEW_MARKER: Copilot review context
 
 
 export default function App() {

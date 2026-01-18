@@ -1,5 +1,6 @@
 import { TextField, InputAdornment, Box } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
+// # REVIEW_MARKER: Copilot review context
 
 export default function SearchBar({ value, onChange }) {
   return (

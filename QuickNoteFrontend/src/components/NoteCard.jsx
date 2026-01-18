@@ -12,7 +12,7 @@ import {
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import ReactMarkdown from 'react-markdown';
-
+// # REVIEW_MARKER: Copilot review context
 export default function NoteCard({ note, onEdit, onDelete, onView }) {
   const theme = useTheme();
   const isDark = theme.palette.mode === 'dark';

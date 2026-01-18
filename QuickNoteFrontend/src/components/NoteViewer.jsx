@@ -13,6 +13,7 @@ import {
 import CloseIcon from '@mui/icons-material/Close';
 import EditIcon from '@mui/icons-material/Edit';
 import ReactMarkdown from 'react-markdown';
+// # REVIEW_MARKER: Copilot review context
 
 export default function NoteViewer({ open, onClose, note, onEdit }) {
   const theme = useTheme();

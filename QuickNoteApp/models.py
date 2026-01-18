@@ -1,5 +1,5 @@
 from django.db import models
-
+# REVIEW_MARKER: Copilot review context
 
 class Note(models.Model):
     title = models.CharField(max_length=200)
